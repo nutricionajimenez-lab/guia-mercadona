@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -c \"import json,sys; d=json.load(sys.stdin); f=d.get('tool_input',{}).get('file_path',''); exit(0 if f.endswith('scraper.js') else 1)\" && cd /Users/angeldanieljimenezhurtado/Desktop/mercadona-guia && node validar-guia.js --fast 2>&1 | head -30 || true",
+            "timeout": 120,
+            "statusMessage": "Verificando guia Mercadona (anti-alucinaciones)..."
+          }
+        ]
+      }
+    ]
+  }
+}

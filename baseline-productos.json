@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "4717",
+    "nombre": "Aceite de oliva virgen extra Hacendado",
+    "seccion": "Aceite, vinagre y sal"
+  },
+  {
+    "id": "4706",
+    "nombre": "Aceite de oliva virgen extra Hacendado Gran Selección",
+    "seccion": "Aceite, vinagre y sal"
+  },
+  {
+    "id": "4850",
+    "nombre": "Aceite de oliva virgen extra Picual Casa Juncal",
+    "seccion": "Aceite, vinagre y sal"
+  },
+  {
+    "id": "4940",
+    "nombre": "Vinagre de vino blanco Hacendado",
+    "seccion": "Aceite, vinagre y sal"
+  },
+  {
+    "id": "4957",
+    "nombre": "Vinagre de manzana Hacendado",
+    "seccion": "Aceite, vinagre y sal"
+  },
+  {
+    "id": "4903",
+    "nombre": "Limón exprimido Hacendado",
+    "seccion": "Aceite, vinagre y sal"
+  },
+  {
+    "id": "5598",
+    "nombre": "Orégano Hacendado",
+    "seccion": "Especias"
+  },
+  {
+    "id": "5599",
+    "nombre": "Perejil Hacendado",
+    "seccion": "Especias"
+  },
+  {
+    "id": "47994",
+    "nombre": "Hoja de laurel Hacendado",
+    "seccion": "Especias"
+  },
+  {
+    "id": "34131",
+    "nombre": "Hierbas provenzales Hacendado",
+    "seccion": "Especias"
+  },
+  {
+    "id": "34128",
+    "nombre": "Albahaca Hacendado",
+    "seccion": "Especias"
+  },
+  {
+    "id": "5547",
+    "nombre": "Tomillo Hacendado",
+    "seccion": "Especias"
+  },
+  {
+    "id": "52739",
+    "nombre": "Eneldo Hacendado",
+    "seccion": "Especias"
+  },
+  {
+    "id": "34721",
+    "nombre": "Cilantro Hacendado",
+    "seccion": "Especias"
+  },
+  {
+    "id": "60873",
+    "nombre": "Ajo y Perejil Hacendado",
+    "seccion": "Especias"
+  },
+  {
+    "id": "14981",
+    "nombre": "Romero Hacendado",
+    "seccion": "Especias"
+  },
+  {
+    "id": "34102",
+    "nombre": "Pimentón dulce de la Vera Hacendado",
+    "seccion": "Especias"
+  },
+  {
+    "id": "34116",
+    "nombre": "Azafrán molido Hacendado",
+    "seccion": "Especias"
+  },
+  {
+    "id": "8370",
+    "nombre": "Azafrán hebra Hacendado",
+    "seccion": "Especias"
+  },
+  {
+    "id": "34183",
+    "nombre": "Pimentón picante Hacendado",
+    "seccion": "Especias"
+  },
+  {
+    "id": "4193",
+    "nombre": "Aceite de coco virgen Hacendado",
+    "seccion": "1. Aceites, Especias y Salsas"
+  },
+  {
+    "id": "35343",
+    "nombre": "Salsa de tomate Zero sin azúcares añadidos Hacendado",
+    "seccion": "1. Aceites, Especias y Salsas"
+  },
+  {
+    "id": "17228",
+    "nombre": "Mostaza de Dijon Hacendado",
+    "seccion": "1. Aceites, Especias y Salsas"
+  },
+  {
+    "id": "23410",
+    "nombre": "Mostaza clásica Hacendado",
+    "seccion": "1. Aceites, Especias y Salsas"
+  },
+  {
+    "id": "52859",
+    "nombre": "Salsa de tomate con Albahaca Hacendado",
+    "seccion": "1. Aceites, Especias y Salsas"
+  },
+  {
+    "id": "17360",
+    "nombre": "Salsa de Soja Hacendado",
+    "seccion": "1. Aceites, Especias y Salsas"
+  },
+  {
+    "id": "17382",
+    "nombre": "Salsa de Soja sin gluten Hacendado",
+    "seccion": "1. Aceites, Especias y Salsas"
+  },
+  {
+    "id": "3840",
+    "nombre": "Guacamole Hacendado",
+    "seccion": "1. Aceites, Especias y Salsas"
+  },
+  {
+    "id": "16827",
+    "nombre": "Salsa Mexicana Hacendado",
+    "seccion": "1. Aceites, Especias y Salsas"
+  },
+  {
+    "id": "17441",
+    "nombre": "Pasta de sésamo Tahini Hacendado",
+    "seccion": "1. Aceites, Especias y Salsas"
+  },
+  {
+    "id": "34024",
+    "nombre": "Nuez natural Hacendado pelada",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "34865",
+    "nombre": "Almendra natural Hacendado",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "86202",
+    "nombre": "Pistacho tostado Hacendado con sal",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "86190",
+    "nombre": "Pistacho tostado Hacendado 0% sal añadida",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "34078",
+    "nombre": "Pipas girasol tostadas Hacendado gigante aguasal",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "23365",
+    "nombre": "Anacardo natural Hacendado",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "34025",
+    "nombre": "Avellana tostada Hacendado 0% sal añadida",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "11960",
+    "nombre": "Almendra tostada y salada Hacendado con piel",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "34009",
+    "nombre": "Almendra frita y salada Hacendado pelada",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "34031",
+    "nombre": "Cacahuete tostado Hacendado 0% sal añadida",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "34014",
+    "nombre": "Almendra tostada Hacendado 0% sal añadida con piel",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "34838",
+    "nombre": "Nuez macadamia Hacendado tostada con sal",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "34963",
+    "nombre": "Mezcla semillas Hacendado",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "34188",
+    "nombre": "Pipas de calabaza natural Hacendado peladas",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "34194",
+    "nombre": "Castañas cocidas y peladas Hacendado",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "5464",
+    "nombre": "Semillas de chía Hacendado",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "34964",
+    "nombre": "Semillas sésamo tostado Hacendado",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "34193",
+    "nombre": "Pipas girasol naturales Hacendado peladas",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "34962",
+    "nombre": "Semillas lino dorado Hacendado",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "34606",
+    "nombre": "Nuez natural Hacendado",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "34095",
+    "nombre": "Pipas calabaza tostadas Hacendado aguasal",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "23059",
+    "nombre": "Pipas girasol tostadas Hacendado 0% sal añadida",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "34236",
+    "nombre": "Nuez de Brasil natural Hacendado",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "34262",
+    "nombre": "Pistacho natural Hacendado pelado",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "34997",
+    "nombre": "Nuez Pecana natural Hacendado pelada",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "13451",
+    "nombre": "Cacahuete tostado Hacendado pelado 0% sal añadida",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "13738",
+    "nombre": "Cacahuete +Proteínas en polvo desgrasado Hacendado 14 g proteínas 70% reducido en grasa",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "52667",
+    "nombre": "Nuez troceada pelada Hacendado",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "52668",
+    "nombre": "Anacardo tostado 0% sal añadida Hacendado",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "21563",
+    "nombre": "Pistacho tostado Hacendado pelado",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "22974",
+    "nombre": "Dátiles Medjoul con hueso Hacendado",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "15301",
+    "nombre": "Dátiles desecados sin hueso Hacendado",
+    "seccion": "Frutos secos y fruta desecada"
+  },
+  {
+    "id": "33053",
+    "nombre": "Aceitunas verdes sin hueso Hacendado",
+    "seccion": "Aceitunas y encurtidos"
+  },
+  {
+    "id": "52734",
+    "nombre": "Aceitunas negras sin hueso Hacendado",
+    "seccion": "Aceitunas y encurtidos"
+  },
+  {
+    "id": "29540",
+    "nombre": "Pepinillos pequeños Hacendado",
+    "seccion": "Aceitunas y encurtidos"
+  },
+  {
+    "id": "33190",
+    "nombre": "Alcaparras Hacendado",
+    "seccion": "Aceitunas y encurtidos"
+  },
+  {
+    "id": "33022",
+    "nombre": "Ajos aliñados Hacendado",
+    "seccion": "Aceitunas y encurtidos"
+  },
+  {
+    "id": "34209",
+    "nombre": "Mango deshidratado Hacendado",
+    "seccion": "2. Frutos Secos, Semillas y Encurtidos"
+  },
+  {
+    "id": "16663",
+    "nombre": "Piña deshidratada Hacendado",
+    "seccion": "2. Frutos Secos, Semillas y Encurtidos"
+  },
+  {
+    "id": "5044",
+    "nombre": "Arroz redondo Hacendado",
+    "seccion": "Arroz"
+  },
+  {
+    "id": "5063",
+    "nombre": "Arroz largo Hacendado",
+    "seccion": "Arroz"
+  },
+  {
+    "id": "5000",
+    "nombre": "Arroz redondo La Fallera",
+    "seccion": "Arroz"
+  },
+  {
+    "id": "22280",
+    "nombre": "Arroz cocido basmati Sabroz",
+    "seccion": "Arroz"
+  },
+  {
+    "id": "22281",
+    "nombre": "Arroz cocido integral Sabroz",
+    "seccion": "Arroz"
+  },
+  {
+    "id": "52790",
+    "nombre": "Arroz Albufera Hacendado",
+    "seccion": "Arroz"
+  },
+  {
+    "id": "22278",
+    "nombre": "Quinoa cocida blanca y roja Sabroz",
+    "seccion": "Arroz"
+  },
+  {
+    "id": "22279",
+    "nombre": "Arroz cocido redondo Sabroz",
+    "seccion": "Arroz"
+  },
+  {
+    "id": "5042",
+    "nombre": "Arroz redondo J Sendra Hacendado",
+    "seccion": "Arroz"
+  },
+  {
+    "id": "5002",
+    "nombre": "Arroz basmati aromático Hacendado",
+    "seccion": "Arroz"
+  },
+  {
+    "id": "9395",
+    "nombre": "Cous cous mediano Hacendado",
+    "seccion": "Arroz"
+  },
+  {
+    "id": "5020",
+    "nombre": "Arroz vaporizado Hacendado",
+    "seccion": "Arroz"
+  },
+  {
+    "id": "9430",
+    "nombre": "Quinoa Hacendado",
+    "seccion": "Arroz"
+  },
+  {
+    "id": "5184",
+    "nombre": "Arroz integral largo Hacendado",
+    "seccion": "Arroz"
+  },
+  {
+    "id": "52637",
+    "nombre": "Arroz redondo Sabor",
+    "seccion": "Arroz"
+  },
+  {
+    "id": "26029",
+    "nombre": "Garbanzo cocido Hacendado",
+    "seccion": "Legumbres"
+  },
+  {
+    "id": "26033",
+    "nombre": "Garbanzo cocido Pedrosillano Hacendado",
+    "seccion": "Legumbres"
+  },
+  {
+    "id": "5214",
+    "nombre": "Garbanzo Hacendado",
+    "seccion": "Legumbres"
+  },
+  {
+    "id": "5220",
+    "nombre": "Garbanzo lechoso Andaluz Hacendado",
+    "seccion": "Legumbres"
+  },
+  {
+    "id": "26019",
+    "nombre": "Alubia cocida blanca Hacendado",
+    "seccion": "Legumbres"
+  },
+  {
+    "id": "26000",
+    "nombre": "Alubia cocida roja Hacendado",
+    "seccion": "Legumbres"
+  },
+  {
+    "id": "26001",
+    "nombre": "Alubia cocida pinta Hacendado",
+    "seccion": "Legumbres"
+  },
+  {
+    "id": "5124",
+    "nombre": "Alubia blanca Hacendado",
+    "seccion": "Legumbres"
+  },
+  {
+    "id": "67608",
+    "nombre": "Alubia negra Hacendado",
+    "seccion": "Legumbres"
+  },
+  {
+    "id": "67609",
+    "nombre": "Alubia roja Hacendado",
+    "seccion": "Legumbres"
+  },
+  {
+    "id": "6106",
+    "nombre": "Pasta fusilli 100% lentejas rojas Felicia",
+    "seccion": "Pasta y fideos"
+  },
+  {
+    "id": "35981",
+    "nombre": "Noodles de arroz Hacendado",
+    "seccion": "3. Arroz, Legumbres y Pasta"
+  },
+  {
+    "id": "83886",
+    "nombre": "Pan de molde 100% integral familiar Hacendado",
+    "seccion": "Pan de molde y otras especialidades"
+  },
+  {
+    "id": "82328",
+    "nombre": "Pan de molde 100% integral Hacendado",
+    "seccion": "Pan de molde y otras especialidades"
+  },
+  {
+    "id": "23643",
+    "nombre": "Pan de molde 100% integral sin corteza Hacendado",
+    "seccion": "Pan de molde y otras especialidades"
+  },
+  {
+    "id": "14961",
+    "nombre": "Pan de molde espelta 100% integral Hacendado natural",
+    "seccion": "Pan de molde y otras especialidades"
+  },
+  {
+    "id": "80942",
+    "nombre": "Tortillas de trigo integrales Hacendado",
+    "seccion": "Pan de molde y otras especialidades"
+  },
+  {
+    "id": "21960",
+    "nombre": "Pan de burger Hacendado Rústico 100% integral",
+    "seccion": "Pan de molde y otras especialidades"
+  },
+  {
+    "id": "82150",
+    "nombre": "Pan tostado vitalité Wasa",
+    "seccion": "Pan tostado y rallado"
+  },
+  {
+    "id": "12049.1",
+    "nombre": "Pan integral trigo 100%",
+    "seccion": "Pan de horno"
+  },
+  {
+    "id": "21596.1",
+    "nombre": "Barra pan integral de espelta 100%",
+    "seccion": "Pan de horno"
+  },
+  {
+    "id": "22388",
+    "nombre": "6 Panecillos integrales 100%",
+    "seccion": "Pan de horno"
+  },
+  {
+    "id": "60354",
+    "nombre": "Panes integrales 100% fino",
+    "seccion": "Pan de horno"
+  },
+  {
+    "id": "12049.2",
+    "nombre": "Pan integral de trigo 100% rebanado",
+    "seccion": "Pan de horno"
+  },
+  {
+    "id": "21596.2",
+    "nombre": "Barra pan integral de espelta 100% rebanado",
+    "seccion": "Pan de horno"
+  },
+  {
+    "id": "60722",
+    "nombre": "Chocolate negro 85% cacao Hacendado",
+    "seccion": "Chocolate"
+  },
+  {
+    "id": "12495",
+    "nombre": "Porciones de chocolate negro 72% cacao extrafino Hacendado",
+    "seccion": "Chocolate"
+  },
+  {
+    "id": "23773",
+    "nombre": "Chocolate negro 72% de cacao Hacendado",
+    "seccion": "Chocolate"
+  },
+  {
+    "id": "22580",
+    "nombre": "Cacao puro en polvo La Chocolatera",
+    "seccion": "Cacao soluble y chocolate a la taza"
+  },
+  {
+    "id": "22966",
+    "nombre": "Cereales copos de maíz Corn Flakes Hacendado 0% azúcares añadidos",
+    "seccion": "Cereales"
+  },
+  {
+    "id": "86368",
+    "nombre": "Copos de avena sin gluten Hacendado",
+    "seccion": "Cereales"
+  },
+  {
+    "id": "86341",
+    "nombre": "Copos de avena Brüggen",
+    "seccion": "Cereales"
+  },
+  {
+    "id": "14013",
+    "nombre": "Tortitas de arroz Hacendado",
+    "seccion": "Tortitas"
+  },
+  {
+    "id": "86483",
+    "nombre": "Tortitas de legumbres y arroz Hacendado",
+    "seccion": "Tortitas"
+  },
+  {
+    "id": "15611",
+    "nombre": "Cereales avena Crunchy Hacendado",
+    "seccion": "5. Chocolates, Cereales y Tortitas"
+  },
+  {
+    "id": "9532",
+    "nombre": "Cereales Cereal Mix Hacendado 0% azúcares añadidos",
+    "seccion": "5. Chocolates, Cereales y Tortitas"
+  },
+  {
+    "id": "9571",
+    "nombre": "Cereales copos de trigo espelta integral Hacendado 0% azúcares añadidos",
+    "seccion": "5. Chocolates, Cereales y Tortitas"
+  },
+  {
+    "id": "9488",
+    "nombre": "Cereales copos de trigo integral y arroz Hacendado 0% azúcares añadidos",
+    "seccion": "5. Chocolates, Cereales y Tortitas"
+  },
+  {
+    "id": "56652",
+    "nombre": "Tiras de pechuga pollo al horno Hacendado",
+    "seccion": "Aves y jamón cocido"
+  },
+  {
+    "id": "56661",
+    "nombre": "Tiras de pechuga de pollo al natural Hacendado",
+    "seccion": "Aves y jamón cocido"
+  },
+  {
+    "id": "5710",
+    "nombre": "Pechuga 92% pavo Hacendado lonchas",
+    "seccion": "Aves y jamón cocido"
+  },
+  {
+    "id": "56084",
+    "nombre": "Pollo 97% relleno La Carloteña asado al horno lonchas",
+    "seccion": "Aves y jamón cocido"
+  },
+  {
+    "id": "59151",
+    "nombre": "Jamón serrano Incarlopsa lonchas extrafinas",
+    "seccion": "Jamón serrano"
+  },
+  {
+    "id": "59018",
+    "nombre": "Mini taquitos de jamón Incarlopsa",
+    "seccion": "Jamón serrano"
+  },
+  {
+    "id": "59124",
+    "nombre": "Jamón serrano lonchas Incarlopsa",
+    "seccion": "Jamón serrano"
+  },
+  {
+    "id": "15700",
+    "nombre": "Jamón serrano cortado a máquina",
+    "seccion": "Jamón serrano"
+  },
+  {
+    "id": "22879",
+    "nombre": "Jamón de cebo ibérico cortado a máquina",
+    "seccion": "Jamón serrano"
+  },
+  {
+    "id": "58274",
+    "nombre": "Jamón serrano reserva cortado a tapas",
+    "seccion": "Jamón serrano"
+  },
+  {
+    "id": "58278",
+    "nombre": "Jamón de cebo ibérico cortado a tapas",
+    "seccion": "Jamón serrano"
+  },
+  {
+    "id": "58280",
+    "nombre": "Jamón de bellota ibérico cortado a tapas",
+    "seccion": "Jamón serrano"
+  },
+  {
+    "id": "58298",
+    "nombre": "Jamón de bellota ibérico 100% cortado a tapas",
+    "seccion": "Jamón serrano"
+  },
+  {
+    "id": "58228",
+    "nombre": "Jamón de cebo ibérico 50% raza ibérica La Hacienda del Ibérico",
+    "seccion": "Jamón serrano"
+  },
+  {
+    "id": "59280",
+    "nombre": "Jamón serrano medias lonchas Jamcal",
+    "seccion": "Jamón serrano"
+  },
+  {
+    "id": "86404",
+    "nombre": "Paleta curada lonchas Paletas Marpa",
+    "seccion": "Jamón serrano"
+  },
+  {
+    "id": "86444",
+    "nombre": "Lomo embuchado Hacendado lonchas",
+    "seccion": "Embutido curado"
+  },
+  {
+    "id": "86442",
+    "nombre": "Cabecero de lomo Hacendado lonchas",
+    "seccion": "Embutido curado"
+  },
+  {
+    "id": "15103",
+    "nombre": "Lomo de cebo ibérico 50% raza ibérica cortado a máquina",
+    "seccion": "Embutido curado"
+  },
+  {
+    "id": "15110",
+    "nombre": "Lomo de bellota ibérico 50% raza ibérica cortado a máquina",
+    "seccion": "Embutido curado"
+  },
+  {
+    "id": "12282",
+    "nombre": "Lomo de pavo Hacendado lonchas",
+    "seccion": "Embutido curado"
+  },
+  {
+    "id": "54053",
+    "nombre": "Lomo Hacendado",
+    "seccion": "Embutido curado"
+  },
+  {
+    "id": "58166",
+    "nombre": "Caña de lomo cebo ibérico La Hacienda del ibérico",
+    "seccion": "Embutido curado"
+  },
+  {
+    "id": "51203",
+    "nombre": "Queso untar suave de vaca Hacendado",
+    "seccion": "Queso untable, fresco y especialidades"
+  },
+  {
+    "id": "51073",
+    "nombre": "Queso untar original Philadelphia",
+    "seccion": "Queso untable, fresco y especialidades"
+  },
+  {
+    "id": "51079",
+    "nombre": "Queso untar light Philadelphia",
+    "seccion": "Queso untable, fresco y especialidades"
+  },
+  {
+    "id": "51223",
+    "nombre": "Queso untar light de vaca Hacendado",
+    "seccion": "Queso untable, fresco y especialidades"
+  },
+  {
+    "id": "51212",
+    "nombre": "Queso untar sin lactosa de vaca Hacendado",
+    "seccion": "Queso untable, fresco y especialidades"
+  },
+  {
+    "id": "52406",
+    "nombre": "Queso fresco Burgos natural Hacendado",
+    "seccion": "Queso untable, fresco y especialidades"
+  },
+  {
+    "id": "50968",
+    "nombre": "Queso curado mezcla Hacendado",
+    "seccion": "Queso curado, semicurado y tierno"
+  },
+  {
+    "id": "50966",
+    "nombre": "Queso curado mezcla Hacendado cortado en cuñitas",
+    "seccion": "Queso curado, semicurado y tierno"
+  },
+  {
+    "id": "50008",
+    "nombre": "Queso grana padano Zanetti",
+    "seccion": "Queso curado, semicurado y tierno"
+  },
+  {
+    "id": "50985",
+    "nombre": "Queso viejo tostado mezcla Hacendado",
+    "seccion": "Queso curado, semicurado y tierno"
+  },
+  {
+    "id": "51111",
+    "nombre": "Queso curado y cheddar Hacendado en dados",
+    "seccion": "Queso curado, semicurado y tierno"
+  },
+  {
+    "id": "50984",
+    "nombre": "Queso viejo de oveja Hacendado",
+    "seccion": "Queso curado, semicurado y tierno"
+  },
+  {
+    "id": "59256",
+    "nombre": "Jamón cocido Hacendado lonchas",
+    "seccion": "6. Charcutería y Quesos"
+  },
+  {
+    "id": "61089",
+    "nombre": "Mix frutos rojos Hacendado ultracongeladas",
+    "seccion": "Fruta y verdura"
+  },
+  {
+    "id": "61092",
+    "nombre": "Fresas enteras Hacendado ultracongeladas",
+    "seccion": "Fruta y verdura"
+  },
+  {
+    "id": "61093",
+    "nombre": "Arándanos enteros Hacendado ultracongelados",
+    "seccion": "Fruta y verdura"
+  },
+  {
+    "id": "86403",
+    "nombre": "Mix frutas tropical Hacendado ultracongeladas",
+    "seccion": "Fruta y verdura"
+  },
+  {
+    "id": "14283",
+    "nombre": "Aguacate en dados Hacendado congelado",
+    "seccion": "Fruta y verdura"
+  },
+  {
+    "id": "14301",
+    "nombre": "Dúo frutas fresa y plátano Hacendado congeladas",
+    "seccion": "Fruta y verdura"
+  },
+  {
+    "id": "61101",
+    "nombre": "Ensaladilla Hacendado ultracongelada",
+    "seccion": "Fruta y verdura"
+  },
+  {
+    "id": "61270",
+    "nombre": "Garrofón Hacendado ultracongelado",
+    "seccion": "Fruta y verdura"
+  },
+  {
+    "id": "61272",
+    "nombre": "Garbanzo Hacendado ultracongelado",
+    "seccion": "Fruta y verdura"
+  },
+  {
+    "id": "61200",
+    "nombre": "Guisante muy tierno Hacendado ultracongelado",
+    "seccion": "Fruta y verdura"
+  },
+  {
+    "id": "61215",
+    "nombre": "Guisante fino Hacendado ultracongelado",
+    "seccion": "Fruta y verdura"
+  },
+  {
+    "id": "61283",
+    "nombre": "Judía verde plana Hacendado ultracongelada",
+    "seccion": "Fruta y verdura"
+  },
+  {
+    "id": "13568",
+    "nombre": "Cebolla troceada Hacendado ultracongelada",
+    "seccion": "Fruta y verdura"
+  },
+  {
+    "id": "61282",
+    "nombre": "Judía verde redonda Hacendado ultracongelada",
+    "seccion": "Fruta y verdura"
+  },
+  {
+    "id": "61288",
+    "nombre": "Ajo tierno Hacendado ultracongelado",
+    "seccion": "Fruta y verdura"
+  },
+  {
+    "id": "62228",
+    "nombre": "Filetes de merluza del Cabo sin piel Hacendado ultracongelados",
+    "seccion": "Pescado"
+  },
+  {
+    "id": "24345",
+    "nombre": "Rodaja de emperador Hacendado ultracongelado",
+    "seccion": "Pescado"
+  },
+  {
+    "id": "24016",
+    "nombre": "Filetes de bacalao MareDeus ultracongelado",
+    "seccion": "Pescado"
+  },
+  {
+    "id": "24203",
+    "nombre": "Tubo de pota Argentina limpio Hacendado congelado",
+    "seccion": "Pescado"
+  },
+  {
+    "id": "24200",
+    "nombre": "Sepia faraónica limpia Hacendado congelada",
+    "seccion": "Pescado"
+  },
+  {
+    "id": "24350",
+    "nombre": "Filete de salmón rosado salvaje con piel Hacendado ultracongelado",
+    "seccion": "Pescado"
+  },
+  {
+    "id": "62145",
+    "nombre": "Rodajas de emperador pequeñas Hacendado ultracongeladas",
+    "seccion": "Pescado"
+  },
+  {
+    "id": "24274",
+    "nombre": "Sepia faraónica troceada limpia Hacendado congelada",
+    "seccion": "Pescado"
+  },
+  {
+    "id": "24242",
+    "nombre": "Calamar troceado limpio Hacendado congelado",
+    "seccion": "Pescado"
+  },
+  {
+    "id": "62191",
+    "nombre": "Filetes de panga Hacendado ultracongelados",
+    "seccion": "Pescado"
+  },
+  {
+    "id": "18030",
+    "nombre": "Atún en aceite de oliva Hacendado",
+    "seccion": "Atún y otras conservas de pescado"
+  },
+  {
+    "id": "18002",
+    "nombre": "Atún claro en aceite de oliva Hacendado",
+    "seccion": "Atún y otras conservas de pescado"
+  },
+  {
+    "id": "18018",
+    "nombre": "Atún claro al natural Hacendado",
+    "seccion": "Atún y otras conservas de pescado"
+  },
+  {
+    "id": "18037",
+    "nombre": "Atún en salsa de tomate Hacendado",
+    "seccion": "Atún y otras conservas de pescado"
+  },
+  {
+    "id": "18011",
+    "nombre": "Ventresca de atún claro en aceite de oliva Hacendado",
+    "seccion": "Atún y otras conservas de pescado"
+  },
+  {
+    "id": "16812",
+    "nombre": "Migas de bonito del norte en aceite de oliva Hacendado",
+    "seccion": "Atún y otras conservas de pescado"
+  },
+  {
+    "id": "18116",
+    "nombre": "Bonito del norte en aceite de oliva Hacendado",
+    "seccion": "Atún y otras conservas de pescado"
+  },
+  {
+    "id": "18102",
+    "nombre": "Filetes de bonito del norte en aceite de oliva Hacendado",
+    "seccion": "Atún y otras conservas de pescado"
+  },
+  {
+    "id": "13628",
+    "nombre": "Filetes de caballa del sur en aceite de oliva Hacendado",
+    "seccion": "Atún y otras conservas de pescado"
+  },
+  {
+    "id": "12794",
+    "nombre": "Filetes de caballa del sur contenido reducido en sal Hacendado en aceite de oliva",
+    "seccion": "Atún y otras conservas de pescado"
+  },
+  {
+    "id": "18107",
+    "nombre": "Filetes de melva en aceite de oliva Hacendado",
+    "seccion": "Atún y otras conservas de pescado"
+  },
+  {
+    "id": "18509",
+    "nombre": "Berberecho al natural XS Hacendado",
+    "seccion": "Berberechos y mejillones"
+  },
+  {
+    "id": "18553",
+    "nombre": "Berberechos al natural S Hacendado",
+    "seccion": "Berberechos y mejillones"
+  },
+  {
+    "id": "18552",
+    "nombre": "Almejones al natural Hacendado",
+    "seccion": "Berberechos y mejillones"
+  },
+  {
+    "id": "18620",
+    "nombre": "Mejillones al natural Hacendado pequeños",
+    "seccion": "Berberechos y mejillones"
+  },
+  {
+    "id": "39934",
+    "nombre": "Gazpacho tradicional Hacendado",
+    "seccion": "Gazpacho y cremas"
+  },
+  {
+    "id": "39903",
+    "nombre": "Salmorejo al estilo cordobés Hacendado",
+    "seccion": "Gazpacho y cremas"
+  },
+  {
+    "id": "39900",
+    "nombre": "Gazpacho fresco Hacendado",
+    "seccion": "Gazpacho y cremas"
+  },
+  {
+    "id": "39901",
+    "nombre": "Salmorejo fresco Hacendado",
+    "seccion": "Gazpacho y cremas"
+  },
+  {
+    "id": "23225",
+    "nombre": "Crema de calabaza y zanahoria Hacendado",
+    "seccion": "Gazpacho y cremas"
+  },
+  {
+    "id": "86587",
+    "nombre": "Crema de espárragos Hacendado",
+    "seccion": "Gazpacho y cremas"
+  },
+  {
+    "id": "8722",
+    "nombre": "Crema de verduras Hacendado",
+    "seccion": "Gazpacho y cremas"
+  },
+  {
+    "id": "8448",
+    "nombre": "Crema de pollo Hacendado con verduras",
+    "seccion": "Gazpacho y cremas"
+  },
+  {
+    "id": "16043",
+    "nombre": "Tomate triturado Hacendado",
+    "seccion": "Tomate"
+  },
+  {
+    "id": "16022",
+    "nombre": "Tomate troceado pelado Hacendado",
+    "seccion": "Tomate"
+  },
+  {
+    "id": "16074",
+    "nombre": "Tomate doble concentrado Hacendado extra",
+    "seccion": "Tomate"
+  },
+  {
+    "id": "16012",
+    "nombre": "Tomate tamizado sin piel Hacendado",
+    "seccion": "Tomate"
+  },
+  {
+    "id": "16712",
+    "nombre": "Maíz dulce Hacendado",
+    "seccion": "8. Conservas, Caldos y Cremas"
+  },
+  {
+    "id": "16519",
+    "nombre": "Espárragos blancos medianos Hacendado",
+    "seccion": "8. Conservas, Caldos y Cremas"
+  },
+  {
+    "id": "16124",
+    "nombre": "Pimientos rojos asados Hacendado en tiras extra",
+    "seccion": "8. Conservas, Caldos y Cremas"
+  },
+  {
+    "id": "16416",
+    "nombre": "Guisantes extra Hacendado",
+    "seccion": "8. Conservas, Caldos y Cremas"
+  },
+  {
+    "id": "16315",
+    "nombre": "Judías verdes redondas Hacendado",
+    "seccion": "8. Conservas, Caldos y Cremas"
+  },
+  {
+    "id": "15534",
+    "nombre": "Patatas cocidas Hacendado",
+    "seccion": "8. Conservas, Caldos y Cremas"
+  },
+  {
+    "id": "16711",
+    "nombre": "Palmito al natural entero Hacendado",
+    "seccion": "8. Conservas, Caldos y Cremas"
+  },
+  {
+    "id": "7024",
+    "nombre": "Caldo de pollo casero Gallina Blanca",
+    "seccion": "8. Conservas, Caldos y Cremas"
+  },
+  {
+    "id": "2794",
+    "nombre": "Filetes pechuga de pavo",
+    "seccion": "Aves y pollo"
+  },
+  {
+    "id": "14461",
+    "nombre": "Chuletas de pavo contramuslo",
+    "seccion": "Aves y pollo"
+  },
+  {
+    "id": "12874",
+    "nombre": "Tacos de pavo",
+    "seccion": "Aves y pollo"
+  },
+  {
+    "id": "2787",
+    "nombre": "Filetes pechuga de pollo",
+    "seccion": "Aves y pollo"
+  },
+  {
+    "id": "2789",
+    "nombre": "Contramuslos de pollo deshuesados y sin piel",
+    "seccion": "Aves y pollo"
+  },
+  {
+    "id": "2622",
+    "nombre": "Burger de pollo",
+    "seccion": "Hamburguesas y picadas"
+  },
+  {
+    "id": "86911",
+    "nombre": "Burger de pollo gruesa",
+    "seccion": "Hamburguesas y picadas"
+  },
+  {
+    "id": "10467",
+    "nombre": "Mini burgers de pollo",
+    "seccion": "Hamburguesas y picadas"
+  },
+  {
+    "id": "81649.1",
+    "nombre": "Salmón a rodajas",
+    "seccion": "Pescado fresco"
+  },
+  {
+    "id": "81234.1",
+    "nombre": "Dorada limpia con cabeza",
+    "seccion": "Pescado fresco"
+  },
+  {
+    "id": "81234.2",
+    "nombre": "Dorada abierta a la espalda con espinas y con cabeza",
+    "seccion": "Pescado fresco"
+  },
+  {
+    "id": "81234.5",
+    "nombre": "Dorada a filetes sin cabeza y sin espina",
+    "seccion": "Pescado fresco"
+  },
+  {
+    "id": "81234.4",
+    "nombre": "Dorada abierta en libro sin cabeza y sin espina",
+    "seccion": "Pescado fresco"
+  },
+  {
+    "id": "81234.3",
+    "nombre": "Dorada sin limpiar",
+    "seccion": "Pescado fresco"
+  },
+  {
+    "id": "18433",
+    "nombre": "Filetes de anchoa en aceite de oliva Hacendado",
+    "seccion": "Salazones y ahumados"
+  },
+  {
+    "id": "26995",
+    "nombre": "Migas de bacalao desaladas Hacendado",
+    "seccion": "Salazones y ahumados"
+  },
+  {
+    "id": "26989",
+    "nombre": "Migas de bacalao al estilo inglés Hacendado",
+    "seccion": "Salazones y ahumados"
+  },
+  {
+    "id": "53444",
+    "nombre": "Salmón ahumado Hacendado",
+    "seccion": "Salazones y ahumados"
+  },
+  {
+    "id": "15768",
+    "nombre": "Huevos de gallinas camperas",
+    "seccion": "Huevos"
+  },
+  {
+    "id": "31010",
+    "nombre": "Huevos cocidos",
+    "seccion": "Huevos"
+  },
+  {
+    "id": "31312",
+    "nombre": "Claras de huevo líquidas pasteurizadas",
+    "seccion": "Huevos"
+  },
+  {
+    "id": "13926",
+    "nombre": "Soja texturizada Luengo",
+    "seccion": "Legumbres"
+  },
+  {
+    "id": "51097",
+    "nombre": "Tofu firme Hacendado",
+    "seccion": "Platos preparados fríos"
+  },
+  {
+    "id": "22313",
+    "nombre": "Yogur natural Hacendado",
+    "seccion": "Yogures naturales y sabores"
+  },
+  {
+    "id": "20260",
+    "nombre": "Yogur natural Danone",
+    "seccion": "Yogures naturales y sabores"
+  },
+  {
+    "id": "20029",
+    "nombre": "Kéfir natural sabor suave",
+    "seccion": "Yogures naturales y sabores"
+  },
+  {
+    "id": "20287",
+    "nombre": "Yogur natural de cabra Hacendado",
+    "seccion": "Yogures naturales y sabores"
+  },
+  {
+    "id": "20559",
+    "nombre": "Yogur griego natural Hacendado",
+    "seccion": "Yogures griegos"
+  },
+  {
+    "id": "21358",
+    "nombre": "Yogur griego natural ligero Hacendado 2% MG",
+    "seccion": "Yogures griegos"
+  },
+  {
+    "id": "52421",
+    "nombre": "Yogur griego natural ligero Hacendado",
+    "seccion": "Yogures griegos"
+  },
+  {
+    "id": "22981",
+    "nombre": "Postre de coco Natural Alpro sin azúcares añadidos",
+    "seccion": "Postres de soja"
+  },
+  {
+    "id": "21256",
+    "nombre": "Postre lácteo natural +Proteínas Hacendado 0% MG 10 g proteínas",
+    "seccion": "11. Postres y Yogures"
+  },
+  {
+    "id": "12753",
+    "nombre": "Bebida láctea desnatada sabor fresa y plátano +Proteínas Hacendado 0% MG 0% azúcares añadidos 17,4 g proteínas",
+    "seccion": "11. Postres y Yogures"
+  },
+  {
+    "id": "15662",
+    "nombre": "Bebida Kéfir natural Hacendado 0% MG",
+    "seccion": "11. Postres y Yogures"
+  }
+]
