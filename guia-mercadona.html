@@ -61,6 +61,86 @@
     body { background: white; }
   }
   @media (max-width: 600px) { .grid { grid-template-columns: repeat(2, 1fr); gap: 0.75rem; } header h1 { font-size: 1.4rem; } }
+
+  /* ===== MENÚ HAMBURGUESA MÓVIL ===== */
+  .hamburger {
+    display: none;
+    position: fixed;
+    top: 14px;
+    right: 16px;
+    z-index: 1000;
+    background: #1a3a2a;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 46px;
+    height: 46px;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    box-shadow: 0 3px 14px rgba(0,0,0,0.35);
+  }
+  .hamburger span {
+    display: block;
+    width: 22px;
+    height: 2.5px;
+    background: white;
+    border-radius: 2px;
+    transition: all 0.25s ease;
+  }
+  .hamburger.open span:nth-child(1) { transform: translateY(7.5px) rotate(45deg); }
+  .hamburger.open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+  .hamburger.open span:nth-child(3) { transform: translateY(-7.5px) rotate(-45deg); }
+  .nav-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+    z-index: 800;
+  }
+  .nav-overlay.open { display: block; }
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    right: -290px;
+    width: 280px;
+    height: 100%;
+    background: #fff;
+    z-index: 900;
+    overflow-y: auto;
+    transition: right 0.3s ease;
+    box-shadow: -4px 0 20px rgba(0,0,0,0.15);
+    padding-bottom: 2rem;
+  }
+  .mobile-menu.open { right: 0; }
+  .mobile-menu-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.2rem;
+    background: #1a3a2a;
+    color: white;
+  }
+  .mobile-menu-title { font-weight: 700; font-size: 0.9rem; }
+  .mobile-menu a {
+    display: block;
+    color: #1a1a1a;
+    text-decoration: none;
+    font-size: 0.88rem;
+    font-weight: 600;
+    padding: 0.8rem 1.4rem;
+    border-bottom: 1px solid #f0f0ea;
+    transition: background 0.12s;
+  }
+  .mobile-menu a:last-child { border-bottom: none; }
+  .mobile-menu a:active, .mobile-menu a:hover { background: #f0fff4; color: #1a3a2a; }
+  .mobile-menu a.btn-lista { color: #2e7d32; background: #f0fff4; border-bottom: 2px solid #c5d9cc; }
+  @media (max-width: 600px) {
+    nav { display: none !important; }
+    .hamburger { display: flex; }
+  }
 </style>
 </head>
 <body>
@@ -70,6 +150,27 @@
   <h1>🛒 Guía de Alimentos Saludables — Mercadona</h1>
   <p>Guía curada con 295 productos organizados por grupos de alimentos</p>
 </header>
+<button class="hamburger" onclick="toggleMenu()" aria-label="Menú">
+  <span></span><span></span><span></span>
+</button>
+<div class="nav-overlay" onclick="closeMenu()"></div>
+<div class="mobile-menu">
+  <div class="mobile-menu-header">
+    <span class="mobile-menu-title">📋 Categorías</span>
+  </div>
+  <a href="#lista-compra-section" class="btn-lista" onclick="closeMenu()">🛒 Mi lista de la compra</a>
+  <a href="#1-aceites-especias-y-salsas" onclick="closeMenu()">🫒 1. Aceites, Especias y Salsas</a>
+  <a href="#2-frutos-secos-semillas-y-encurtidos" onclick="closeMenu()">🥜 2. Frutos Secos, Semillas y Encurtidos</a>
+  <a href="#3-arroz-legumbres-y-pasta" onclick="closeMenu()">🍚 3. Arroz, Legumbres y Pasta</a>
+  <a href="#4-panes-y-harinas" onclick="closeMenu()">🍞 4. Panes y Harinas</a>
+  <a href="#5-chocolates-cereales-y-tortitas" onclick="closeMenu()">🍫 5. Chocolates, Cereales y Tortitas</a>
+  <a href="#6-charcutera-y-quesos" onclick="closeMenu()">🥩 6. Charcutería y Quesos</a>
+  <a href="#7-congelados" onclick="closeMenu()">❄️ 7. Congelados</a>
+  <a href="#8-conservas-caldos-y-cremas" onclick="closeMenu()">🥫 8. Conservas, Caldos y Cremas</a>
+  <a href="#9-carne-pescado-y-huevos" onclick="closeMenu()">🥚 9. Carne, Pescado y Huevos</a>
+  <a href="#10-protenas-vegetales" onclick="closeMenu()">🌱 10. Proteínas Vegetales</a>
+  <a href="#11-postres-y-yogures" onclick="closeMenu()">🥛 11. Postres y Yogures</a>
+</div>
 <nav>
   <a href="#lista-compra-section" class="btn-lista">🛒 Haz tu lista de la compra</a>
   <a href="#1-aceites-especias-y-salsas">🫒 1. Aceites, Especias y Salsas</a>
@@ -3870,6 +3971,20 @@
 </main>
 <footer>Datos obtenidos de tienda.mercadona.es · 27/4/2026 · Precios y disponibilidad sujetos a cambios</footer>
 <script>
+  function toggleMenu() {
+    const btn = document.querySelector('.hamburger');
+    const menu = document.querySelector('.mobile-menu');
+    const overlay = document.querySelector('.nav-overlay');
+    btn.classList.toggle('open');
+    menu.classList.toggle('open');
+    overlay.classList.toggle('open');
+  }
+  function closeMenu() {
+    document.querySelector('.hamburger').classList.remove('open');
+    document.querySelector('.mobile-menu').classList.remove('open');
+    document.querySelector('.nav-overlay').classList.remove('open');
+  }
+
   document.querySelectorAll('.card').forEach(card => {
     card.addEventListener('click', function() {
       this.classList.toggle('selected');
