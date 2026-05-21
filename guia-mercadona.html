@@ -14,7 +14,16 @@
   .header-brand { font-family: 'Dancing Script', cursive; font-size: 2rem; color: #c8e6cf; margin-top: 0; margin-bottom: 0.4rem; font-weight: 600; }
   header h1 { font-size: 2rem; font-weight: 700; letter-spacing: -0.5px; }
   header p { margin-top: 0.5rem; color: #9ec4a8; font-size: 0.95rem; }
-  nav { background: #fff; border-bottom: 1px solid #e0e0d8; padding: 1rem 2rem; display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+  nav { background: #fff; border-bottom: 1px solid #e0e0d8; padding: 0.75rem 2rem 0.75rem; display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+  .search-wrapper { width: 100%; max-width: 480px; position: relative; margin-bottom: 0.25rem; }
+  .search-wrapper input { width: 100%; padding: 0.45rem 2.2rem 0.45rem 2rem; border-radius: 20px; border: 1.5px solid #c5d9cc; font-size: 0.88rem; outline: none; background: #f8faf8; color: #1a1a1a; }
+  .search-wrapper input:focus { border-color: #1a3a2a; background: #fff; }
+  .search-wrapper input::placeholder { color: #aaa; }
+  .search-icon { position: absolute; left: 0.65rem; top: 50%; transform: translateY(-50%); font-size: 0.85rem; pointer-events: none; }
+  .search-clear { position: absolute; right: 0.6rem; top: 50%; transform: translateY(-50%); background: none; border: none; cursor: pointer; color: #bbb; font-size: 1rem; line-height: 1; padding: 0; display: none; }
+  .search-clear:hover { color: #555; }
+  .search-no-results { display: none; text-align: center; padding: 4rem 2rem; color: #888; font-size: 1rem; }
+  .search-no-results strong { display: block; font-size: 2rem; margin-bottom: 0.5rem; }
   nav a { color: #1a3a2a; text-decoration: none; font-size: 0.8rem; font-weight: 600; padding: 0.3rem 0.7rem; border-radius: 20px; border: 1.5px solid #c5d9cc; transition: all 0.15s; white-space: nowrap; }
   nav a:hover { background: #1a3a2a; color: white; border-color: #1a3a2a; }
   main { max-width: 1400px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
@@ -174,6 +183,11 @@
   <a href="#13-bebidas-y-lacteos" onclick="closeMenu()">🥛 13. Bebidas y Lácteos</a>
 </div>
 <nav>
+  <div class="search-wrapper">
+    <span class="search-icon">🔍</span>
+    <input type="search" id="buscador" placeholder="Buscar alimento… (sin tildes también funciona)" autocomplete="off" spellcheck="false">
+    <button class="search-clear" id="search-clear" onclick="clearSearch()" aria-label="Borrar búsqueda">✕</button>
+  </div>
   <a href="#lista-compra-section" class="btn-lista">🛒 Haz tu lista de la compra</a>
   <a href="#1-aceites-especias-y-salsas">🫒 1. Aceites, Especias y Salsas</a>
   <a href="#2-frutos-secos-semillas-y-encurtidos">🥜 2. Frutos Secos, Semillas y Encurtidos</a>
@@ -190,6 +204,7 @@
   <a href="#13-bebidas-y-lacteos">🥛 13. Bebidas y Lácteos</a>
 </nav>
 <main>
+<div class="search-no-results" id="search-no-results"><strong>🔍</strong>Sin resultados para "<span id="search-query-label"></span>"</div>
 <section class="seccion" id="1-aceites-especias-y-salsas">
   <div class="seccion-header"><span class="seccion-emoji">🫒</span><h2>1. Aceites, Especias y Salsas</h2></div>
   <p class="seccion-intro">El aceite de oliva virgen extra (AOVE), pilar de la dieta mediterránea, concentra polifenoles, vitamina E y ácido oleico. Las especias son la farmacia natural de la cocina: antiinflamatorias, antioxidantes y digestivas sin calorías.</p>
@@ -4214,6 +4229,52 @@
 </main>
 <footer>Datos obtenidos de tienda.mercadona.es · 27/4/2026 · Precios y disponibilidad sujetos a cambios</footer>
 <script>
+  function normalizarTexto(str) {
+    return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  }
+
+  document.getElementById('buscador').addEventListener('input', function() {
+    const raw = this.value.trim();
+    const query = normalizarTexto(raw);
+    const clearBtn = document.getElementById('search-clear');
+    const noResults = document.getElementById('search-no-results');
+    const queryLabel = document.getElementById('search-query-label');
+
+    clearBtn.style.display = raw ? 'block' : 'none';
+    queryLabel.textContent = raw;
+
+    const secciones = document.querySelectorAll('main .seccion:not(#lista-compra-section)');
+    let totalVisible = 0;
+
+    secciones.forEach(function(seccion) {
+      if (!query) {
+        seccion.style.display = '';
+        seccion.querySelectorAll('.card').forEach(function(c) { c.style.display = ''; });
+        return;
+      }
+      const cards = seccion.querySelectorAll('.card');
+      let visibles = 0;
+      cards.forEach(function(card) {
+        const nombre = normalizarTexto(card.querySelector('.card-name') ? card.querySelector('.card-name').textContent : '');
+        const ingredientes = normalizarTexto(card.querySelector('.card-ingredientes') ? card.querySelector('.card-ingredientes').textContent : '');
+        const coincide = nombre.includes(query) || ingredientes.includes(query);
+        card.style.display = coincide ? '' : 'none';
+        if (coincide) visibles++;
+      });
+      seccion.style.display = visibles > 0 ? '' : 'none';
+      totalVisible += visibles;
+    });
+
+    noResults.style.display = (query && totalVisible === 0) ? 'block' : 'none';
+  });
+
+  function clearSearch() {
+    var input = document.getElementById('buscador');
+    input.value = '';
+    input.dispatchEvent(new Event('input'));
+    input.focus();
+  }
+
   function toggleMenu() {
     const btn = document.querySelector('.hamburger');
     const menu = document.querySelector('.mobile-menu');
