@@ -64,7 +64,7 @@
   .btn-limpiar { background: white; color: #888; border: 1.5px solid #ddd; padding: 0.7rem 1.2rem; border-radius: 8px; font-size: 0.9rem; cursor: pointer; }
   .btn-limpiar:hover { border-color: #e53935; color: #e53935; }
   @media print {
-    header, nav, .seccion:not(#lista-compra-section), footer, .lista-acciones { display: none !important; }
+    header, nav, .hamburger, .mobile-menu, .nav-overlay, .seccion:not(#lista-compra-section), footer, .lista-acciones { display: none !important; }
     #lista-compra-section { display: block !important; padding: 2rem; }
     .lista-item { box-shadow: none; border-bottom: 1px solid #eee; border-radius: 0; }
     body { background: white; }
@@ -4339,7 +4339,7 @@
     }
   }
 
-  function exportarPDF() { window.print(); }
+  function exportarPDF() { closeMenu(); window.print(); }
 
   function limpiarLista() {
     document.querySelectorAll('.card.selected').forEach(c => c.classList.remove('selected'));
